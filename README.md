@@ -1,4 +1,4 @@
-![image](https://github.com/krithika1707/hotel-frontend/assets/101324307/e5a5d97c-b361-45b4-8c5a-671f6b82b410)# hotel-frontend
+# hotel-frontend
 A hotel booking site using HTMLand advanced CSS
 
 ![image](https://github.com/krithika1707/hotel-frontend/assets/101324307/31787a87-e76d-4cf2-be8e-604c3748c10f)
