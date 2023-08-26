@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4ae7c16f10.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500&display=swap" rel="stylesheet">
+    <title>Hotel</title>
+</head>
+
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1 style="margin-bottom: 10px;"> Welcome to Paradise Hotel</h1>
+            <p style="margin-top: 10px 0px;"> We provide rooms at a very good price along with great aminities to make your living experience awesome!</p>
+            <button class="book-button">Book</button>
+        </div>
+    </section>
+    
+    <h1 class="about-heading"> About Us</h1>
+    <section class="about-section">
+    
+        <div class="about-us">
+            <p>Paradise, one of the Strongest Brand across industries and sectors, is an iconic hospitality brand from the Indian Hotels Company Limited. 
+            The brand continues to be one of the most revered and loved hospitality brands with a legacy of over 116 years of impeccable service and genuine warmth.
+            </p>
+            <br>
+           <p> Embodying the spirit of "Paradise", authentic original palaces, landmark hotels, idyllic resorts and natural safari lodges interpret the tradition of hospitality in a refreshingly modern way to create unique experiences and lifelong memories.
+        </p>
+        <div class="know-more-container">
+        <button class="know-more">Know more...</button></div>
+        </div>
+        <div class="amenities">
+            <h3> Aminities we have</h3>
+        <ul>
+            <li><i class="fa-solid fa-wifi"></i>High speed internet</li>
+            <li><i class="fa-solid fa-utensils"></i>Complementary Breakfast</li>
+            <li><i class="fa-solid fa-person-swimming"></i>Swimming Pool</li>
+            <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+            <li><i class="fa-solid fa-mug-saucer"></i>Cafe</li>
+        </ul>    
+        </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+        <div class="room-images">
+            <img src="room.jpg" alt="room pic">
+        </div>
+        <div class="room-list">
+            <h4>Single Occupancy Room</h4>
+            <p>A room assigned to one person. May have one or more beds. The room size or are of single rooms are generally berween 37m² to 45m²</p>
+            <h4>Family Room</h4>
+            <p>A parlour or living room connected with one or more bedrooms. A room with a separate living space. The room size or area of the suite rooms are generally between 70m² to 100m²</p>
+            <h4>Duplex Room</h4>
+            <p>The most expensive room provided by a hotel. Usually, only one Suplex suite is available in one single hotel property. Similar to the normal suites, a Duplex suite always has one or more bedrooms and a living space with a strong emphasis on grand in-room decoration, high-quality amenities and supplies and tailor-made services(e.g. personal butler during the stay)</p>
+        </div>
+    </section>
+    <div class="help-button">
+        <h4><i class="fa-solid fa-circle-info"></i>Need Help?</h4>
+    </div> <br>
+    <h2 class="form-heading">Fill the form for booking room</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your Full Name</label><br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Id</label><br>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date of Booking</label><br>
+                <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Select Room Type</label><br>
+                <select name="room-type" id="room-type" required>
+                    <option value="" selected disabled>Select....</option>
+                    <option value="single room">Single Room</option>
+                    <option value="Family room">Family Room</option>
+                    <option value="Duplex room">Duplex Room</option>
+                </select>
+            </div>
+            <input type="submit" value="Book">
+        </form>
+    </section>
+</body>
+</html>
